@@ -8,4 +8,4 @@ Configs for cheat: https://yadi.sk/d/KZNcRdMSheLTfw
 Конфиги для чита: https://yadi.sk/d/KZNcRdMSheLTfw
 
 [P.S]
-Thx github.com/HoShiMin for library.
+Thx https://www.github.com/HoShiMin for library.
