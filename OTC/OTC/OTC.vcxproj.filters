@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\utils">
+      <UniqueIdentifier>{f88bb714-0b38-4471-a1cf-d4edef21bf46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\patch">
+      <UniqueIdentifier>{dba20b01-f38a-4c3f-8fc0-c3024612c763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\segment">
+      <UniqueIdentifier>{45ee3719-adfb-495a-8bad-1d903d79e134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\framework">
+      <UniqueIdentifier>{dc7abcc1-8afc-468b-ba53-96c43654169d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\utils">
+      <UniqueIdentifier>{3b22cd39-1b20-4e4d-9c99-7566c4574878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\framework">
+      <UniqueIdentifier>{f3411615-32a3-47e7-88a2-93067b426817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\segment">
+      <UniqueIdentifier>{4c638d2c-daeb-4fde-8e4e-924abd099758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\patch">
+      <UniqueIdentifier>{6d52b353-fd61-479e-8cf8-e2326f9007c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\segment">
+      <UniqueIdentifier>{d79e83cc-756c-498d-b236-1f2df4edcea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\library">
+      <UniqueIdentifier>{0a161968-fd72-4e6e-b1c4-f0e5b9b67db9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HookLib.h">
+      <Filter>Файлы ресурсов\library</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Файлы заголовков\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUtils.h">
+      <Filter>Файлы заголовков\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="PatchManager.h">
+      <Filter>Файлы заголовков\patch</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Файлы заголовков\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Segment.h">
+      <Filter>Файлы заголовков\segment</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentHeader.h">
+      <Filter>Файлы заголовков\segment</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentUtils.h">
+      <Filter>Файлы заголовков\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Файлы заголовков\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Исходные файлы\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUtils.cpp">
+      <Filter>Исходные файлы\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="PatchManager.cpp">
+      <Filter>Исходные файлы\patch</Filter>
+    </ClCompile>
+    <ClCompile Include="SegmentHeaderManager.cpp">
+      <Filter>Исходные файлы\segment</Filter>
+    </ClCompile>
+    <ClCompile Include="Segment.cpp">
+      <Filter>Исходные файлы\segment</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Исходные файлы\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="SegmentUtils.cpp">
+      <Filter>Исходные файлы\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="HookLib.lib">
+      <Filter>Файлы ресурсов\library</Filter>
+    </Library>
+    <Library Include="Zydis.lib">
+      <Filter>Файлы ресурсов\library</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="offsets.txt">
+      <Filter>Файлы ресурсов\segment</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
